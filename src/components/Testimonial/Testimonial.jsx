@@ -11,34 +11,19 @@ const Testimonial = () => {
   const data = [
     {
       image: "",
-      review: "jkjlk",
-      name: "klmk,",
-      role: "khjlk",
+      review:
+        "Working on GCED NIGERIA was one of my 2022 highlights and guess who designed the website? William. I am always thrilled - not surprised (I've known him for more than 10 years) by the energy he puts into getting things done. Even when I sometimes figure that he's probably not sure of what he's doing, his response 'give me a minute and I'll figgure it out' always shows me he's got a growth mindset. He is not a 'No' person when it comes to project implementation and he has got an incredible communication skills. Who else can I recommend to be on your team as a Frontend Developer/Website Designer if not William?",
+      name: "Ekundayo Opeyemi",
+      role: "GCED NIGERIA",
     },
     {
       image: "",
-      review: "",
-      name: "",
-      role: "",
+      review:
+        "Working on GCED NIGERIA was one of my 2022 highlights and guess who designed the website? William. I am always thrilled - not surprised (I've known him for more than 10 years) by the energy he puts into getting things done. Even when I sometimes figure that he's probably not sure of what he's doing, his response 'give me a minute and I'll figgure it out' always shows me he's got a growth mindset. He is not a 'No' person when it comes to project implementation and he has got an incredible communication skills. Who else can I recommend to be on your team as a Frontend Developer/Website Designer if not William?",
+      name: "Ekundayo Opeyemi",
+      role: "GCED NIGERIA",
     },
-    {
-      image: "",
-      review: "",
-      name: "",
-      role: "",
-    },
-    {
-      image: "",
-      review: "",
-      name: "",
-      role: "",
-    },
-    {
-      image: "",
-      review: "",
-      name: "",
-      role: "",
-    },
+    //
   ];
 
   return (
@@ -49,7 +34,7 @@ const Testimonial = () => {
       <Swiper
         modules={[Pagination, Autoplay]}
         autoplay={{
-          delay: 2500,
+          delay: 4500,
           disableOnInteraction: false,
         }}
         spaceBetween={30}

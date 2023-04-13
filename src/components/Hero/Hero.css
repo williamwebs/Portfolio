@@ -63,6 +63,64 @@ header {
   font-size: 0.9rem;
 }
 
+.bubble {
+  /* background-color: var(--color-primary); */
+  background: transparent;
+  border: 5px solid var(--color-primary);
+  width: 40px;
+  aspect-ratio: 1/1;
+  position: absolute;
+  bottom: 10%;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 50%;
+  animation: bubble 5s infinite ease-out;
+  opacity: 0.3;
+}
+
+.bubble__2 {
+  left: 40%;
+  animation-delay: 1.5s;
+  /* background-color: rgb(3, 187, 58); */
+  border-color: rgb(3, 187, 58);
+}
+
+.bubble__6 {
+  left: 60%;
+  animation-delay: 1s;
+  /* background-color: rgb(187, 3, 162); */
+  border-color: rgb(187, 3, 162);
+}
+
+@keyframes bubble {
+  0% {
+    bottom: 10%;
+    opacity: 0.2;
+  }
+
+  30% {
+    opacity: 0.6;
+    width: 80px;
+    left: 40%;
+  }
+
+  50% {
+    bottom: 100%;
+    opacity: 0;
+    width: 30px;
+  }
+
+  70% {
+    left: 60%;
+  }
+
+  100% {
+    bottom: 0%;
+    width: 20px;
+    opacity: 0.3;
+  }
+}
+
 /* media query */
 
 @media (max-width: 1024px) {

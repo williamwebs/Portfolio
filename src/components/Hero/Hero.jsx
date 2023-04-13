@@ -21,6 +21,11 @@ const Hero = () => {
           Scroll Down
         </a>
         <HeaderSocials />
+
+        {/* bubbles */}
+        <div className="bubble"></div>
+        <div className="bubble bubble__2"></div>
+        <div className="bubble bubble__6"></div>
       </section>
     </header>
   );

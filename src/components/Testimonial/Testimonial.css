@@ -15,7 +15,7 @@
 .testimonial {
   background: var(--color-bg-variant);
   text-align: center;
-  padding: 2rem;
+  padding: 2rem 0;
   border-radius: 2rem;
   user-select: none;
 }
@@ -23,8 +23,10 @@
 .clients-review {
   color: var(--color-light);
   font-weight: 300;
+  font-size: 14px;
+  text-align: justify;
   display: block;
-  width: 80%;
+  width: 90%;
   margin: 0.8rem auto 0;
 }
 
@@ -55,5 +57,7 @@
 
   .clients-review {
     width: var(--container-width-sm);
+    font-size: 13px;
+    text-align: center;
   }
 }

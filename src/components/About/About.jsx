@@ -3,7 +3,7 @@ import "./About.css";
 
 import me from "../../assets/image.jpg";
 
-import { FaAward } from "react-icons/fa";
+import { FaAward, FaBook } from "react-icons/fa";
 import { FiUsers } from "react-icons/fi";
 import { VscFolderActive } from "react-icons/vsc";
 
@@ -23,24 +23,24 @@ const About = () => {
             <article className="about-card">
               <FaAward className="about-icon" />
               <h5>Experience</h5>
-              <small>1+ Years Working </small>
+              {/* <small>1+ Years </small> */}
             </article>
             <article className="about-card">
               <FiUsers className="about-icon" />
-              <h5>Internship</h5>
-              <small>3 Internships</small>
+              <h5>Contributions</h5> {/** from Internship **/}
+              <small>120+</small>
             </article>
             <article className="about-card">
-              <VscFolderActive className="about-icon" />
-              <h5>Projects</h5>
-              <small>10+ Completed</small>
+              <FaBook className="about-icon" />
+              {/* <VscFolderActive className="about-icon" /> */}
+              <h5>Article</h5> {/** from Project **/}
+              <small>2</small>
             </article>
           </div>
           <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Saepe quam
-            maiores recusandae dolore dolorem natus quaerat quo atque
-            praesentium aspernatur soluta, odit cumque. Quos aliquid pariatur
-            vero earum reiciendis cupiditate!
+            Hello! 👋 I'm William Anaza, a ReactJs Frontend Developer, a
+            WordPress wdesigner, a curious Tech Enthusiast and a life-long
+            learner.
           </p>
           <a href="#contact" className="btn btn-primary">
             Let's Talk
