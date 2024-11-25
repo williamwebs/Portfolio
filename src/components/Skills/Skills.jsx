@@ -38,14 +38,28 @@ const Skills = () => {
             <article className="skills-details">
               <BsPatchCheckFill className="skills-icon" />
               <div>
-                <h4>Tailwind</h4>
+                <h4>React Js</h4>
                 {/* <small className="text-light">Intermediate</small> */}
               </div>
             </article>
             <article className="skills-details">
               <BsPatchCheckFill className="skills-icon" />
               <div>
-                <h4>React Js</h4>
+                <h4>Next Js</h4>
+                {/* <small className="text-light">Intermediate</small> */}
+              </div>
+            </article>
+            <article className="skills-details">
+              <BsPatchCheckFill className="skills-icon" />
+              <div>
+                <h4>MongoDB</h4>
+                {/* <small className="text-light">Intermediate</small> */}
+              </div>
+            </article>
+            <article className="skills-details">
+              <BsPatchCheckFill className="skills-icon" />
+              <div>
+                <h4>Tailwind</h4>
                 {/* <small className="text-light">Intermediate</small> */}
               </div>
             </article>
@@ -70,13 +84,13 @@ const Skills = () => {
                 {/* <small className="text-light">Intermediate</small> */}
               </div>
             </article>
-            <article className="skills-details">
+            {/* <article className="skills-details">
               <BsPatchCheckFill className="skills-icon" />
               <div>
                 <h4>Netlify</h4>
-                {/* <small className="text-light">Intermediate</small> */}
+                <small className="text-light">Intermediate</small>
               </div>
-            </article>
+            </article> */}
           </div>
         </div>
         {/* web design */}
@@ -100,7 +114,7 @@ const Skills = () => {
             <article className="skills-details">
               <BsPatchCheckFill className="skills-icon" />
               <div>
-                <h4>Wix</h4>
+                <h4>Woo-Commerce</h4>
                 {/* <small className="text-light">Intermediate</small> */}
               </div>
             </article>

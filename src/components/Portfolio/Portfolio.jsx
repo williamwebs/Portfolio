@@ -16,7 +16,7 @@ const Portfolio = () => {
       skills: "ReactJs, Firebase, API, Git, GitHub",
       image: intakes,
       github: "https://github.com/williamwebs",
-      demo: "https://intakes.ng",
+      demo: "https://intakes-ng-e2763.web.app",
       details: `As the Frontend Lead on this product, I am tasked with setting up the structure for the project using ReactJs, built the user interfaces, consumed the APIs, conducted researches, led a team of 3 dev.interns in building this project. With this project, 
         I learn better how to work with Git & Github, firebase hosting and linking a custom domain, contributing to open-source and working with other developers & designers.
         This project also helped develop and improve on my communications, leadership and team-playing skills.`,
@@ -72,7 +72,9 @@ const Portfolio = () => {
     <section id="portfolio">
       <h5>My Recent Work</h5>
       <h2>Portfolio</h2>
-      <a href="https://github.com/williamwebs" className="github__link">View more on GitHub</a>
+      <a href="https://github.com/williamwebs" className="github__link">
+        View more on GitHub
+      </a>
 
       <div className="container portfolio-container">
         {data.map(({ title, image, github, demo, details, skills }, index) => {
@@ -98,6 +100,22 @@ const Portfolio = () => {
           );
         })}
       </div>
+
+      {/* wordpress */}
+      <section className="wordpress-section">
+        <h5>Some of the projects I handled using wordpress</h5>
+        <h2>Wordpress works</h2>
+        <div className="container">
+          <div className="links">
+            <a href="https://imperialedtech.com">Imperial edTech website</a>
+            <a href="https://revrica.com">revrica website</a>
+            <a href="https://rev.africa">rev website</a>
+            <a href="https://shesolvesafrica.com">SheSolves Africa</a>
+            <a href="https://big-nluxuryapartments.com">Big N Luxury</a>
+            <a href="https://gcednigeria.org">GCED NIGERIA</a>
+          </div>
+        </div>
+      </section>
     </section>
   );
 };

@@ -54,7 +54,7 @@
 }
 
 .portfolio-item h3 {
-  margin: 1.2rem 0 .4rem;
+  margin: 1.2rem 0 0.4rem;
 }
 
 .portfolio-item p {
@@ -68,6 +68,23 @@
   margin-bottom: 1rem;
 }
 
+.wordpress-section {
+  height: 100%;
+}
+
+.wordpress-section .links {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+.wordpress-section .links a {
+  text-decoration: underline;
+}
+
+.wordpress-section > a {
+  color: #fff;
+}
 
 /* media queries */
 

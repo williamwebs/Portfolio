@@ -11,7 +11,7 @@ const HeaderSocials = () => {
       <a href="https://twitter.com" target="_blank">
         <BsTwitter />
       </a>
-      <a href="https://github.com" target="_blank">
+      <a href="https://github.com/williamwebs" target="_blank">
         <FaGithub />
       </a>
     </div>
