@@ -2,9 +2,7 @@ import React from "react";
 
 import "./Portfolio.css";
 
-import edufort from "../../assets/edufort.png";
 import intakes from "../../assets/intake1.PNG";
-import quickaid from "../../assets/quickaid2.png";
 import sunny from "../../assets/sunnyside.PNG";
 import meal from "../../assets/meal.PNG";
 import devlink from "../../assets/portfolio-devlinks.PNG";
@@ -34,8 +32,7 @@ Technologies: Next.js, NextAuth, JavaScript, Tailwind CSS, Firebase, Google Anal
     },
     {
       title: "Ukoro AI",
-      skills:
-        "Next.js, TypeScript, Gemini, Firebase, Jotai",
+      skills: "Next.js, TypeScript, Gemini, Firebase, Jotai",
       image: ukoro,
       github: "https://github.com/williamwebs/ukoro-ai",
       demo: "https://ukoro-ai.vercel.app/",
