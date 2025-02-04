@@ -12,7 +12,10 @@ const Hero = () => {
         <h5>Hello I'm</h5>
         <h1>William Anaza</h1>
         <h5 className="text-light">Frontend Engineer</h5>
-        <marquee>Welcome</marquee>
+        <marquee>
+          Frontend Engineer: React.js, Next.js, TypeScript, JavaScript, Redux
+          Toolkit, Jotai, Zustand.
+        </marquee>
         <CTA />
         <div className="me">
           <img src={me} alt="" />

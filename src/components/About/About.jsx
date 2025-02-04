@@ -38,9 +38,25 @@ const About = () => {
             </article>
           </div>
           <p>
-            Hello! 👋 I'm William Anaza, a ReactJs Frontend Developer, a
-            WordPress wdesigner, a curious Tech Enthusiast and a life-long
-            learner.
+            Hello! 👋 <br /> I'm William Anaza, a Frontend Developer with
+            experience building performant web applications with{" "}
+            <span>React.js / Next.js & TypeScript</span> primarily. I pride
+            myself in builing pixel-perfect, aesthetically appealing and
+            mobile-responsive frontend solutions either as an independent
+            developer or collaboratively with a team.
+          </p>
+          <p>
+            In addition to <span>React.js / Next.js & Typescript</span>, I am
+            also proficient in
+            <span>
+              {" "}
+              JavaScript, Tailwindcss, Shadcn, Jotai & Redux Toolkit for State
+              Management, Firebase tools, MongoDB, Git for version control and
+              other modern frontend tools.
+            </span>{" "}
+            I also have a good understanding of WordPress and have built a
+            number of websites with it. I am a big fan of AI and its application
+            in builing innovative solutions.
           </p>
           <a href="#contact" className="btn btn-primary">
             Let's Talk

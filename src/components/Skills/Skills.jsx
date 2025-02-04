@@ -17,14 +17,14 @@ const Skills = () => {
             <article className="skills-details">
               <BsPatchCheckFill className="skills-icon" />
               <div>
-                <h4>HTML5</h4>
+                <h4>React.js</h4>
                 {/* <small className="text-light">Experienced</small> */}
               </div>
             </article>
             <article className="skills-details">
               <BsPatchCheckFill className="skills-icon" />
               <div>
-                <h4>CSS3</h4>
+                <h4>Next.js</h4>
                 {/* <small className="text-light">Intermediate</small> */}
               </div>
             </article>
@@ -38,49 +38,49 @@ const Skills = () => {
             <article className="skills-details">
               <BsPatchCheckFill className="skills-icon" />
               <div>
-                <h4>React Js</h4>
+                <h4>TypeScript</h4>
                 {/* <small className="text-light">Intermediate</small> */}
               </div>
             </article>
             <article className="skills-details">
               <BsPatchCheckFill className="skills-icon" />
               <div>
-                <h4>Next Js</h4>
+                <h4>Redux Toolkit</h4>
                 {/* <small className="text-light">Intermediate</small> */}
               </div>
             </article>
             <article className="skills-details">
               <BsPatchCheckFill className="skills-icon" />
               <div>
-                <h4>MongoDB</h4>
+                <h4>Jotai</h4>
                 {/* <small className="text-light">Intermediate</small> */}
               </div>
             </article>
             <article className="skills-details">
               <BsPatchCheckFill className="skills-icon" />
               <div>
-                <h4>Tailwind</h4>
+                <h4>Tailwindcss</h4>
                 {/* <small className="text-light">Intermediate</small> */}
+              </div>
+            </article>
+            <article className="skills-details">
+              <BsPatchCheckFill className="skills-icon" />
+              <div>
+                <h4>MongoDb</h4>
+                {/* <small className="text-light">Basic</small> */}
+              </div>
+            </article>
+            <article className="skills-details">
+              <BsPatchCheckFill className="skills-icon" />
+              <div>
+                <h4>Firebase Tools</h4>
+                {/* <small className="text-light">Basic</small> */}
               </div>
             </article>
             <article className="skills-details">
               <BsPatchCheckFill className="skills-icon" />
               <div>
                 <h4>Git</h4>
-                {/* <small className="text-light">Basic</small> */}
-              </div>
-            </article>
-            <article className="skills-details">
-              <BsPatchCheckFill className="skills-icon" />
-              <div>
-                <h4>GitHub</h4>
-                {/* <small className="text-light">Basic</small> */}
-              </div>
-            </article>
-            <article className="skills-details">
-              <BsPatchCheckFill className="skills-icon" />
-              <div>
-                <h4>Firebase</h4>
                 {/* <small className="text-light">Intermediate</small> */}
               </div>
             </article>
