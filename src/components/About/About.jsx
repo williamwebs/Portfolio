@@ -19,24 +19,22 @@ const About = () => {
           </div>
         </div>
         <div className="about-content">
-          <div className="about-cards">
+          {/* <div className="about-cards">
             <article className="about-card">
               <FaAward className="about-icon" />
               <h5>Experience</h5>
-              {/* <small>1+ Years </small> */}
             </article>
             <article className="about-card">
               <FiUsers className="about-icon" />
-              <h5>Contributions</h5> {/** from Internship **/}
+              <h5>Contributions</h5> 
               <small>120+</small>
             </article>
             <article className="about-card">
               <FaBook className="about-icon" />
-              {/* <VscFolderActive className="about-icon" /> */}
-              <h5>Article</h5> {/** from Project **/}
+              <h5>Article</h5> 
               <small>2</small>
             </article>
-          </div>
+          </div> */}
           <p>
             Hello! 👋 <br /> I'm William Anaza, a Frontend Developer with
             experience building performant web applications with{" "}
