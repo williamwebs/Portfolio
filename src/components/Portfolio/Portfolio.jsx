@@ -3,10 +3,10 @@ import React from "react";
 import "./Portfolio.css";
 
 import edufort from "../../assets/edufort.png";
-import intakes from "../../assets/intake1.png";
+import intakes from "../../assets/intake1.PNG";
 import quickaid from "../../assets/quickaid2.png";
-import sunny from "../../assets/sunnyside.png";
-import meal from "../../assets/meal.png";
+import sunny from "../../assets/sunnyside.PNG";
+import meal from "../../assets/meal.PNG";
 import manage from "../../assets/manage.png";
 import devlink from "../../assets/portfolio-devlinks.PNG";
 import ukoro from "../../assets/portfolio-ukoros.PNG";
