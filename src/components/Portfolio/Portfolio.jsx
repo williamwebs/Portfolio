@@ -7,7 +7,6 @@ import intakes from "../../assets/intake1.PNG";
 import quickaid from "../../assets/quickaid2.png";
 import sunny from "../../assets/sunnyside.PNG";
 import meal from "../../assets/meal.PNG";
-import manage from "../../assets/manage.png";
 import devlink from "../../assets/portfolio-devlinks.PNG";
 import ukoro from "../../assets/portfolio-ukoros.PNG";
 import crystal from "../../assets/portfolio-crystals.PNG";
